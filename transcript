@@ -1,0 +1,36 @@
+Script started on Thu 09 Feb 2017 11:02:30 PM EST
+gtohnyon@marcie:~/cs366/asn2$ ./a.out back another.txt[7Pgcc -Wall  wash.o-c wash.cexit[Kgcc -Wall -c wash.c
+gtohnyon@marcie:~/cs366/asn2$ gcc -Wall -c wash.c./a.out back another.txt[7Pgcc -Wall  wash.o
+gtohnyon@marcie:~/cs366/asn2$ gcc -Wall  wash.o-c wash.c./a.out back another.txt[7Pgcc -Wall  wash.o./a.out back another.txt
+
+		Table of Reference
+ ’c’ list the current file to /dev/tty (cat[1]the current file) 
+ ’d’ copy the current file (duplicate)
+ ’r’ rename the current file 
+ ’u’ delete (unlink) the current file 
+ ’t’ zero (length) the current file (i.e.,truncate the current file) 
+ ’a’ append the current file to another file 
+ ’l’ display the last 100 bytes of the current file of fewer if fewer exist) (tail) 
+ ’m’ change the current file’s access permissions (see chmod[1] and chmod[2]) 
+ ’x’ change the current file’s access time to the current time (see utime[2]) 
+ ’n’ goto the next name (i.e., the next file) 
+ ’q’ quit 
+
+ file : back command: c
+indexed prj/Toy.txt 
+indexed prj/another.txt 
+indexed prj/test.txt 
+Sorry!! No Matches for impressive
+Sorry!! No Matches for dog
+file : back command: l
+100 bytes of this file is: 
+  prj/another.txt 
+indexed prj/test.txt 
+Sorry!! No Matches for impressive
+Sorry!! No Matches for dog
+
+file : back command: n
+fopen: No such file or directory
+gtohnyon@marcie:~/cs366/asn2$ exit
+
+Script done on Thu 09 Feb 2017 11:03:26 PM EST

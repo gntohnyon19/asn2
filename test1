@@ -1,0 +1,22 @@
+Script started on Fri 10 Feb 2017 01:06:46 AM EST
+gtohnyon@marcie:~/cs366/asn2$ ./a.out back another.txt[7Pgcc -Wall  wash.o-c wash.c
+gtohnyon@marcie:~/cs366/asn2$ gcc -Wall -c wash.c./a.out back another.txt[7Pgcc -Wall  wash.o
+gtohnyon@marcie:~/cs366/asn2$ gcc -Wall  wash.o-c wash.c./a.out back another.txt[7Pgcc -Wall  wash.o./a.out back another.txt[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K
+
+		Table of Reference
+ ’c’ list the current file to /dev/tty (cat[1]the current file) 
+ ’d’ copy the current file (duplicate)
+ ’r’ rename the current file 
+ ’u’ delete (unlink) the current file 
+ ’t’ zero (length) the current file (i.e.,truncate the current file) 
+ ’a’ append the current file to another file 
+ ’l’ display the last 100 bytes of the current file of fewer if fewer exist) (tail) 
+ ’m’ change the current file’s access permissions (see chmod[1] and chmod[2]) 
+ ’x’ change the current file’s access time to the current time (see utime[2]) 
+ ’n’ goto the next name (i.e., the next file) 
+ ’q’ quit 
+
+ No files entered !!
+gtohnyon@marcie:~/cs366/asn2$ exit
+
+Script done on Fri 10 Feb 2017 01:08:15 AM EST

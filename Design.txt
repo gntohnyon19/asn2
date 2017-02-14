@@ -1,0 +1,21 @@
+//This is my Design file
+//<Gilchrist Toh>
+
+
+Analysis:
+	The problem is to make a program to go through and organize the files entered by Mr Krab using command. The commands will allow him perform actions like renaming files, deleting files, concatenating files etc and also do administrative things like changing the files permissions of the different files in the program. Using the linux man page, you learn how to code the commands,
+
+
+
+
+Problem: 
+	Assignment is to play with low-level file IO in C. Mr.Krabs needs a program to help him clean up and organize his files. 
+IOW when he needs you to write the program wash, which processes, one at a time, file names provided on the command line.
+Write a program which allows him play with the different files in the directory performing different command actions.
+
+
+
+
+Design:
+   Using the File IO and kernel level calls while opening files entered in by user, write commands for example 'c' , 'x' which help the user organize their directory or files.
+This program should be able to display files to stdout, give the current time of usage, delete and rename files. The program processes on file at a time allowing the user to provide commands which allow Mr.Krabs concatenate files. My program will have one main for loop which continuously loops through the first file entered by the user until the user enter the command 'n' to move to the next file. It'll also have an inner while loop which loops asking the user for commands while the command enter isn't 'q' to quit the program. ALso in this while loop, the different commands are performed using if statements.

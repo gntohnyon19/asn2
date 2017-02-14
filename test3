@@ -1,0 +1,28 @@
+Script started on Fri 10 Feb 2017 01:31:08 AM EST
+gtohnyon@marcie:~/cs366/asn2$ ./a.out ab.txt ad.txt heyguys[12Pgcc -Wall  wash.o-c wash.c./a.out ab.txt ad.txt heyguys[12Pgcc -Wall  wash.o-c wash.c
+gtohnyon@marcie:~/cs366/asn2$ gcc -Wall -c wash.c./a.out ab.txt ad.txt heyguys[12Pgcc -Wall  wash.o
+gtohnyon@marcie:~/cs366/asn2$ gcc -Wall  wash.o-c wash.c./a.out ab.txt ad.txt heyguys[1P[1@c[C[C[C[C[C[C
+
+		Table of Reference
+ ’c’ list the current file to /dev/tty (cat[1]the current file) 
+ ’d’ copy the current file (duplicate)
+ ’r’ rename the current file 
+ ’u’ delete (unlink) the current file 
+ ’t’ zero (length) the current file (i.e.,truncate the current file) 
+ ’a’ append the current file to another file 
+ ’l’ display the last 100 bytes of the current file of fewer if fewer exist) (tail) 
+ ’m’ change the current file’s access permissions (see chmod[1] and chmod[2]) 
+ ’x’ change the current file’s access time to the current time (see utime[2]) 
+ ’n’ goto the next name (i.e., the next file) 
+ ’q’ quit 
+
+ file ac.txt: command: a
+Enter a file that you want to append:
+heyguys
+File successfully appended
+file ac.txt: command: u
+File deleted successfully
+file ad.txt: command: n
+file heyguys: command: q
+gtohnyon@marcie:~/cs366/asn2$ ^C
+Script done on Fri 10 Feb 2017 01:36:05 AM EST

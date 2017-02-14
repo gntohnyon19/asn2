@@ -1,0 +1,136 @@
+//This is my file
+//<Gilchrist Toh>
+
+Test 1:
+	input : a.out
+
+	output: 
+	   
+	    Table of Reference
+	 ’c’ list the current file to /dev/tty (cat[1]the current file) 
+	 ’d’ copy the current file (duplicate)
+	 ’r’ rename the current file 
+	 ’u’ delete (unlink) the current file 
+	 ’t’ zero (length) the current file (i.e.,truncate the current file) 
+	 ’a’ append the current file to another file 
+	 ’l’ display the last 100 bytes of the current file of fewer if fewer exist) (tail) 
+	 ’m’ change the current file’s access permissions (see chmod[1] and chmod[2]) 
+	 ’x’ change the current file’s access time to the current time (see utime[2]) 
+	 ’n’ goto the next name (i.e., the next file) 
+	 ’q’ quit 
+
+	    - No files entered !!
+
+Test 2:
+	input : a.out ad.txt heyguys
+
+	output: 
+	   
+		Table of Reference
+	 ’c’ list the current file to /dev/tty (cat[1]the current file) 
+	 ’d’ copy the current file (duplicate)
+	 ’r’ rename the current file 
+	 ’u’ delete (unlink) the current file 
+	 ’t’ zero (length) the current file (i.e.,truncate the current file) 
+	 ’a’ append the current file to another file 
+	 ’l’ display the last 100 bytes of the current file of fewer if fewer exist) (tail) 
+	 ’m’ change the current file’s access permissions (see chmod[1] and chmod[2]) 
+	 ’x’ change the current file’s access time to the current time (see utime[2]) 
+	 ’n’ goto the next name (i.e., the next file) 
+	 ’q’ quit 
+
+	 file ad.txt: command: l
+	100 bytes of this file is: 
+	  did over the summer, I learned that different food companies make food having different prototypes.
+
+	file ad.txt: command: x
+	time is Fri Feb 10 01:29:14 2017
+	file ad.txt: command: n
+	file heyguys: command: q
+	gtohnyon@marcie:~/cs366/asn2$ 
+
+Test 3:
+	input : a.out ac.txt ad.txt heyguys
+
+	output: 
+	   
+		Table of Reference
+	 ’c’ list the current file to /dev/tty (cat[1]the current file) 
+	 ’d’ copy the current file (duplicate)
+	 ’r’ rename the current file 
+	 ’u’ delete (unlink) the current file 
+	 ’t’ zero (length) the current file (i.e.,truncate the current file) 
+	 ’a’ append the current file to another file 
+	 ’l’ display the last 100 bytes of the current file of fewer if fewer exist) (tail) 
+	 ’m’ change the current file’s access permissions (see chmod[1] and chmod[2]) 
+	 ’x’ change the current file’s access time to the current time (see utime[2]) 
+	 ’n’ goto the next name (i.e., the next file) 
+	 ’q’ quit 
+
+	 file ac.txt: command: a
+	Enter a file that you want to append:
+	heyguys
+	File successfully appended
+	file ac.txt: command: u
+	File deleted successfully
+	file ad.txt: command: n
+	file heyguys: command: q
+	gtohnyon@marcie:~/cs366/asn2$ 
+
+Test 4:
+	input : a.out ab.txt ac.txt ad.txt
+
+	output: 
+	   
+	    Table of Reference
+	 ’c’ list the current file to /dev/tty (cat[1]the current file) 
+	 ’d’ copy the current file (duplicate)
+	 ’r’ rename the current file 
+	 ’u’ delete (unlink) the current file 
+	 ’t’ zero (length) the current file (i.e.,truncate the current file) 
+	 ’a’ append the current file to another file 
+	 ’l’ display the last 100 bytes of the current file of fewer if fewer exist) (tail) 
+	 ’m’ change the current file’s access permissions (see chmod[1] and chmod[2]) 
+	 ’x’ change the current file’s access time to the current time (see utime[2]) 
+	 ’n’ goto the next name (i.e., the next file) 
+	 ’q’ quit 
+
+	 file ab.txt: command: q
+	gtohnyon@marcie:~/cs366/asn2$ 
+
+
+Test 5:
+	input : a.out ab.txt 
+
+	output: 
+	   
+	    Table of Reference
+	 ’c’ list the current file to /dev/tty (cat[1]the current file) 
+	 ’d’ copy the current file (duplicate)
+	 ’r’ rename the current file 
+	 ’u’ delete (unlink) the current file 
+	 ’t’ zero (length) the current file (i.e.,truncate the current file) 
+	 ’a’ append the current file to another file 
+	 ’l’ display the last 100 bytes of the current file of fewer if fewer exist) (tail) 
+	 ’m’ change the current file’s access permissions (see chmod[1] and chmod[2]) 
+	 ’x’ change the current file’s access time to the current time (see utime[2]) 
+	 ’n’ goto the next name (i.e., the next file) 
+	 ’q’ quit 
+
+	 file ab.txt: command: c
+         indexed prj/Toy.txt 
+	 indexed prj/another.txt 
+	 indexed prj/test.txt 
+	 Sorry!! No Matches for impressive
+	 Sorry!! No Matches for dog
+	 indexed prj/Toy.txt 
+	 indexed prj/another.txt 
+	 indexed prj/test.txt 
+	 Sorry!! No Matches for impressive
+	 Sorry!! No Matches for dog
+
+	 In this case I want my roommate to have the will to cook healthy home meals and save left overs for in case he gets hungry and lazy to cook. I can do this by rich knowledge of cooking. I usually cook twice a week in bulk and store most of it in the refrigerator for moments when I’m lazy and hungry. Me sharing my food with him is something he wants. which  in return make him want to start cooking his own meals and sharing with me instead of ordering greasy Chinese food which isn’t health benefiting. From a nutrition program I did over the summer, I learned that different food companies make food having different prototypes. By this I mean that the same type of food might a different food content such as the levels of sodium, fat, and sugar. Psychological it isn’t good to total remove something that someone is used to suddenly but it is better if we reduce the amount or give a substitute instead. For his case, he tends to like high sugar containing foods and high calorie foods, so a way to help improve his health is by giving making him have these high sugar containing foods in a reduced amount or instead I can advice him to buy the prototype of he normally buys but with less calorie values and less sugar content. Allowing him to shop for the same types of food he normally will buy is also a way of positively reinforcing him by giving him the type of food he wants to also improve his health and behavior which is choosing less calorie contained foods to improve his health.
+         file ab.txt: command: q
+	 gtohnyon@marcie:~/cs366/asn2$ 
+
+
